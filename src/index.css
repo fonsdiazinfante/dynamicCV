@@ -40,3 +40,13 @@ code {
   padding: 3rem 1rem;
   text-align: justify;
 }
+
+.school-logo {
+  display: inline-block;
+  width: 5rem;
+  right: 0px;
+}
+
+.school-text{
+  display: inline;
+}

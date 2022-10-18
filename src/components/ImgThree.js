@@ -1,10 +1,10 @@
 import { Parallax } from 'react-parallax';
-import logo from '../img/logo1.jpg';
+import school from '../img/school.jpeg';
 
 const ImgThree = () => (
-    <Parallax className='image' blur={0} bgImage={logo}bgImageAlt="Alfonso" strength={800}>
+    <Parallax className='image' blur={1} bgImage={school}bgImageAlt="Alfonso" strength={300}>
         <div className='content'>
-            <span className='img-txt'>Alfonso</span>
+            <span className='img-txt'>Education</span>
         </div>
     </Parallax>
 );
