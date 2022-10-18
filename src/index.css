@@ -35,25 +35,8 @@ code {
   letter-spacing: 10px;
 }
 
-.text-box {
+.text-box, .fact {
   text-align: center;
   padding: 3rem 1rem;
-  text-align: justify;
-}
-
-.fact-txt {
-  text-align: center;
-  padding: 3rem 1rem;
-  text-align: justify;
-}
-
-.fact {
-  text-align: center;
-  padding: 3rem 1rem;
-  text-align: justify;
-}
-
-.fact-button {
-  text-align: center;
   text-align: justify;
 }
