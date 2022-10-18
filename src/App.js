@@ -6,7 +6,11 @@ import Facts from "./components/Facts";
 
 function App() {
   return (
+    
     <div className="App">
+      <head>
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+      </head>
      <ImgOne />
      <TextBox />
      <ImgTwo />
