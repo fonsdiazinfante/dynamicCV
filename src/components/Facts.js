@@ -15,9 +15,9 @@ const fetchFact = () => {
 }
 
     return(
-        <div>
+        <div className="white-text">
             <h3 className='img-txt'> API understanding</h3>
-            <p className="fact"> {fact} </p>
+            <p className="white-text"> {fact} </p>
             <button className="fact-button" onClick={fetchFact}>Get a fact!</button>
         </div>
     )

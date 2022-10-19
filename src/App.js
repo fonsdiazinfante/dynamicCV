@@ -2,7 +2,7 @@ import ImgOne from "./components/ImgOne";
 import ImgThree from "./components/ImgThree";
 import ImgTwo from "./components/ImgTwo";
 import Intro from "./components/Introduction";
-import Facts from "./components/Facts";
+import Skills from "./components/Skills";
 import Education from "./components/Education";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
      <ImgOne />
      <Intro />
      <ImgTwo />
-     <Facts />
+     <Skills />
      <ImgThree />
      <Education />
     </div>
