@@ -12,18 +12,13 @@ code {
     monospace;
 }
 
-.image {
-  position: relative;
-  height: 100vh;
-}
-
 .content {
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
   height: 100vh;
-  width: 100%;
+  min-width: 100%;
 }
 
 .content span.img-txt {
@@ -45,6 +40,8 @@ code {
   display: inline-block;
   width: 5rem;
   right: 0px;
+  grid-row-start: 2;
+  grid-column-start: 2;
 }
 
 .school-text{
@@ -63,16 +60,27 @@ code {
     justify-content: center;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 2rem 8rem;
+
+
+
+@media (min-width: 800px) {
+  .grid-container-skills {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 2rem 8rem;
+    }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2rem 8rem;
+  }
 }
 
-.grid-container-skills {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 2rem 8rem;
+.image {
+  position: absolute;
+  height: 800px;
 }
 
 .grid-item {
@@ -81,6 +89,19 @@ code {
   text-align: center;
 }
 
+.course-text {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  grid-row-start: 2;
+}
+
 .grid-item:nth-child(odd) {
   font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1rem 2rem;
 }
